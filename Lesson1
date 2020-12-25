@@ -1,0 +1,39 @@
+So from the big Green button at top of GitHub "Read the guide" the lesson is broken down as follows:
+Intro
+What is GitHub?
+Create a Repository
+Create a Branch
+Make a Commit
+Open a Pull Request
+Merge Pull Request
+
+What I have had done already, before hitting the Big Green Button, was 
+1) Created a new repository called "git101" 
+    a) with a Readme.md file checked
+    b) and edited it with the "mission" statement
+    c) saved the changes via green commit button after edits
+    
+What I learned was that The Repository "git101" has already implemented:
+1) the repository (see line 4 above)
+2) the default branch main (see line 5)
+3) perhaps a commit when I saved my edits to the Readme.md file (see line 6, and 14 or 1.c above)
+
+So, LESSON 1 is half done! We did these steps from the web actions described in 1a - 1c. But it might 
+not be so obvious unless you look out for it! We happen to be starting the lesson about the creation
+of a repository while we have created one to store the journey. Hope you are with me. More on this 
+shortly.
+
+First, note the git definition/purpose: 
+GitHub is a code hosting platform for version control and collaboration. It lets you and others 
+work together on projects from anywhere.
+
+This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests.
+
+Enough of that note, now, understand that having this repo git101 of creating repos. This Lesson1 file
+is already completed through the first three steps. Plus we have this extra file!
+
+So, now, is probably a good time to commit this file before doing the next steps:
+Step 4. Open a Pull Request, and 
+Step 5. Merge Pull Request
+Step 6. CELEBRATE!!!
+
