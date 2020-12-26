@@ -37,4 +37,4 @@ Moving forward, what can be done to reduce confusion and gain clarity:
 
 Now, I happen to be editing the "Readme.md" file from the Newly created branch called "Readme-edits" from the Code View page (Green "CODE"
 button on far right and the branch "Readme-edits" button on far left visible. So, I'm expecting a nearby commit to show only for the "feature"
-Readme-edits for these three lines (#28-31).
+Readme-edits for these three lines (#37-40).
