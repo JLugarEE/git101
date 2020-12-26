@@ -1,0 +1,45 @@
+Wow, that was nice, once I went through all these steps from "Read the guide":
+Step 2. Create a Branch
+Step 3. Make a Commit
+Step 4. Open a Pull Request
+Step 5. Merge Pull Request
+
+What I learned was a few key points that remove prior confusion.
+1) The above 4 steps allow incorporating (merging) modification in stages (branch/Pull requests) with collaboration
+2) Commits are "saves" to the file/branch/request "objects"
+3) Having multiple windows open and in edit modes (before commit) could/will accidentally be missing.
+4) Reading the mode of your web page helps you figure where you are in the process of coding/editing, sharing/reviewing
+    and finally accepting(/rejecting or modifying) the changes
+More on this screen below "Read the guide button", with slightly greyed background in day mode:
+
+------------------------------------------------------------------------------------------------------
+In your Git Hub base/repository name                            [UnWatch]     [Star]        [Fork]
+<> Code  0 Issues  |] Pull requests > Actions [] Projects [] Wiki   4 Security L% Insights * Settings
+=======-----------------------------------------------------------------------------------------------
+repos.Name/[Lesson3_newBranchToMerge] [CANCEL]
+------------------------------------------------------------------------------------------------------
+{This file as I am in edit mode}
+------------------------------------------------------------------------------------------------------
+
+So, lines 16 - 21 show the GitHub page coming to life for me. as I did steps 2-5 (lines 2-5 above)
+NOTICE:
+1) the Code page shown here as underscored with "=" is actually red in the web page
+2) lines 16/17 show the mode you are in especially with the next line (19 above)
+3) Now in edit mode 19 is: "git101/[Lesson3_newBranchtoMe] [Cancel]"
+when in non-edit mode it's: "[main] Y Branch Tags       [GO TO FILE] [ADD FILE]  [[CODE]]"  ([[]] = green button)
+
+Understanding this helped me use the GitHub page more easily and understand the "Read the Guide" lessons better.
+
+Back continuing what I learned:
+5) The branch, commit, and pull requests are methods that are taken to 
+    make a change, save the change, and request review of the change.
+TIP: while doing Steps 2 - 4 note that some of the buttons might vary, but if you take above lesson of reading
+the GH screen and "Read the guide" words/instructions you will get through the end goal, realizing that the 
+guiding principles are the same and these 3 steps work together for the last.
+
+6) The Merge step allows review/edit of the changes, and the merging of changes into the main repository.
+NOTE: So, my change was to make the lines added in the readme-edits to be lines 28-31 instead of 29-31.
+    Seeing the changes as green adds was very nice. Also, after committing the merge, the branch was closed
+    or deleted, and the adds went into the Readme.md original.
+    
+Time to celebrate!! Got a way better understanding of how to use my GitHub repository git101!!
