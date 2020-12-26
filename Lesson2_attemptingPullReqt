@@ -1,0 +1,18 @@
+So, I left Lesson1 with a promise to celebrate Christmas with family, and did that well. Actually before stopping Lesson1, I attempted to 
+understand the next few steps. I left frustrated. Looked like I had missed creating a new branch for the default one created. 
+
+Then, I realized if my goal would or could be lost in the repository and attempting to follow the "Read the guide" tutorial. So, I decided
+to be explicit in that effect in the original Readme.md file with an update. Finally, on a positive note, I did review Lesson1 and found it 
+to be clear, and useful to get my goal(s).
+
+Now, here I am trying to explore continuing the project/repository (here using the terms loosely, and not by Git definition).
+
+So, I attempt to get thru the lessons by:
+1) Create the recommended "Readme-edits" branch
+    I'm a bit thrown by the guides' picture of the branch and the words main VS master, and they introduce the branch as a "feature".
+TIP: Follow the animation just below where it clicks on branch "master" that clarified things nicely to success!
+
+2) Make recommended edits to the Readme.md from the "Readme-edits" branch.
+3) Commit the changes. Read the Guide informing me that a pull is required to see the differences. This is described with much detail
+    so I recommend you Step 4. Open a pull request from "Read the guide". Now, I commit this file, as I have two tabs in my browser 
+    open and want these changes in this file to be visible to this line #18.
