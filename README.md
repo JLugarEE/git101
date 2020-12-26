@@ -14,6 +14,15 @@ frustrated and equally humbled to get back to basics and the Manual. Read the ma
 
 So, I begin... (12/25/2020)  What I'm nuts, but promise to work in the celebration! So, help me Lord! Any anybody else caring to follow along.
 
+My implicit assumption, you have already:
+1) a Git account 
+2) installed Git Graphical User interface (GUI) 
+3) installed Git Command-Line interface (CLI)
+else re-view to set-up via
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=3
+Also, you may have gotten lost or forgot what you had intended to when you got your Git account/GUI/CLI tools setup.
+Or finally, you can get these setup and come along.
+
 December 26th update:
 √ Family time celebrating the best Gift to man. (Check mark = Alt right keypad 251 on keyboard, since good ole DOS days)
 
