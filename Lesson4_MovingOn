@@ -1,0 +1,63 @@
+So, after review of my Goals, and restating my implicit asumptions below, I found a decent 
+Video series that details where I wanted to go:
+
+My implicit assumption, you have already:
+1) a Git account 
+2) installed Git Graphical User interface (GUI) 
+3) installed Git Command-Line interface (CLI)
+else re-view and set-up via
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=3
+
+Which is from reference YouTube (23) video series for more detail:
+https://www.youtube.com/watch?v=noZnOSpcjYY&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-
+
+"Read the guide" recommends the first video of this video series:
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=1
+, but it is too general, all on its own.
+
+High level intro to Git/GHub from developers point of view:
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=2
+Ok, this is a better high level and detailed "road map" if you would, but still too broad. 
+
+NOTES from 2/23 video series:
+They did mention different OSes, the local Git and the GitHub web share,
+10 commands/clicks and finally the GUI and CLI.
+Using Local via CLI or with GUI, and
+Git Hub/remote for collaboration via a web address for I/O
+Using PUSH/PULL commands to work local and remotely
+
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=5
+NOTES:
+1) init: for local and remote projects
+
+Local via CLI:
+$ git init projName
+Creates a local folder projName
+Web via GUI:
+My Git Hub space/Repositories Tab/[[New (repository)]] green button
+Give repo a unique name in your GH space
+Public OR Private
+Check Readme.md file/[[Create Repository]]
+Linking/Syncing the local/remote repositories, my MO, is left for later video(s).
+
+https://www.youtube.com/watch?v=7Inc0G0wutk&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=6
+NOTES:
+2) commit (2 of 3 ways)/ status/ add
+a) $ git status
+Shows (local) status of any changes in the active branch that may (red colored) need to be committed
+
+b) $ git add filename
+Stages the file for uploading; in other words tags it for sharing/revisioning
+ 
+c) $ git status
+Shows the "filename" as green or STAGED for revisioning/sharing
+
+d) $ git commit -m "Reason for the modifications/sharing of 'filename'"
+Saves the message following -m to the (local) repository and uploads the 'filename'
+
+Via GUI/web:
+[edit] on desired filename
+[[Commit]] green button
+
+Ok, time for a break. Especially as I notice these videos are giving me what I had missed first time
+around. Plus these videos are re-hashing the earlier "Read the guide" basics.
