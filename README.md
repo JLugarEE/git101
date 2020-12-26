@@ -13,3 +13,15 @@ Add to that, my love of learning and my continuous desire to do more and better 
 frustrated and equally humbled to get back to basics and the Manual. Read the manual. Start with the tutorial.
 
 So, I begin... (12/25/2020)  What I'm nuts, but promise to work in the celebration! So, help me Lord! Any anybody else caring to follow along.
+
+December 26th update:
+√ Family time celebrating the best Gift to man. (Check mark = Alt right keypad 251 on keyboard, since good ole DOS days)
+
+√ Revisit Green button "Read the guide" notice immediately that a repository on making repositories will create confusion.
+
+Moving forward, what can be done to reduce confusion and gain clarity:
+1. Try to perform the demo as a series of lessons and perhaps clarity points, and avoid this built in duplicity of repository speak.
+   Not knowing what that will look like yet, I contemplate, and might try a few.
+   
+2. Show the pit falls of OLD think. Not a fan of teaching what not to do. However, it's the murky mire I find myself in which is my MO.
+3. Other. (When stumped by thought doing takes over.) Exploring 1-3...
