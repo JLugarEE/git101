@@ -1,0 +1,39 @@
+Notes from Videos 7 and 8 of 23...
+Diff
+https://www.youtube.com/watch?v=RXSriVcoI70&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=7
+NOTES:
+$ git diff
+Shows differences between last work and staged area
+
+$ git diff HEAD
+Shows differences between last commit and staged area
+
+$ git diff --color-words
+Shows just words of the change instead of a whole line
+
+$ git diff --word-dff
+Shows just words of the change instead of a whole line with [-]/{+ } formating
+
+$ git diff --stat
+Shows changes by file at file level as summary, not line level details
+
+
+https://www.youtube.com/watch?v=RXSriVcoI70&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=8
+NOTES:
+$ git log
+Shows latest to earliest commit history ref #, Author & Date, commit msg
+
+$ git log --oneline
+Shows short id and 1 line of the commit message  
+
+$ git log --stat
+Shows full log plus status/file level summary of mods
+
+$ git log --patch
+Shows full log info and diffs between commits
+
+$ git log --patch -- oneline
+Shows the patch details and oneline summary
+
+$ git log --graph --all --decorate --oneline
+Shows oneline summary, ASCII art all commits, branches and tags
