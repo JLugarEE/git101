@@ -1,0 +1,23 @@
+
+$ # NOTES:===== MOVE ---- video 16 -------------
+$ #
+$ # git = local		| vs | 	  	git-hub = remote
+$ #     <----<<         fetch   
+$ #			pull		<---<<	
+$ #	>>----->	push
+$ #
+$ ls -a						# list local (.git/ available?)
+$ pwd						# print local work dir
+$ git init					# initialize a local repo @ cur dir
+$ git remote -v 				# listing remotes
+$ git remote add origin https:yourSpace		# sets link to remote repo as origin
+$ git remote set-url origin https:SpaceTwo	# resets link to remote as origin
+$ git remote rm origin				# removes remote (from stage?)
+
+$ git branch -r					# list remote branches
+
+$ git fetch origin				# syncs remote to local
+$ git checkout feature1				# track remote branch feature1 from origin
+$ git pull origin				# unpacks remote to origin/feature1
+
+$ git push origin				# sends local/feature1 to remote/feature1

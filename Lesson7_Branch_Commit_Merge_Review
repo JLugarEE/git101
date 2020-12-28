@@ -1,0 +1,46 @@
+$ # Revisit and review Lesson3_newBranchToMerge
+
+https://www.youtube.com/watch?v=H5GJfcp3p4Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=13
+$ # NOTES:===== BRANCH ---- video 13 -------------
+$ git branch new-branch-or-feature-name		#Creates a new branch 
+
+$ git branch -d new-branch-or-feature-name  	# del branch from stage
+
+$ git branch -D branch-or-feature-name		# delete branch fully
+
+$ # Can't Delete a branch that is active
+
+$ git checkout master			# change to master branch
+
+$ # Can't change to a new branch if current has uncommitted changes
+
+https://www.youtube.com/watch?v=H5GJfcp3p4Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=14
+$ # NOTES:===== CHECKOUT ---- video 14 -------------
+$ git branch/status			# Shows active branch
+
+$ git checkout branch-desired		# Switches to branch-desired
+$ git log				# See all historic commits
+$ git checkout long-log-id		# Detached HEAD, no commits here
+
+$ git checkout -- <file> 		# discards <file> changes in work dir
+$ git checkout -b new-branch		# create and switch to 'new-branch'
+
+https://www.youtube.com/watch?v=H5GJfcp3p4Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=15
+NOTES:
+$ # NOTES:===== MERGE ---- video 15 -------------
+$ git checkout master			# prepare to merge into master
+$ git merge branch-to-merge		# merges branch-to-merge to cur-branch 'master'
+
+$ git merge cleanup-vars		# a branch that fails on CONFLICT
+$ git status				# show files not commited/in CONFLICT
+$ # edit CONFLICT between markers <<<< HEAD, separator line ====, and marker >>>> cleanup-vars as you determine what you want/need
+
+$ git status/add edited-conflict-file		# commit(/merge completed) to master
+
+$ git merge --abort			# rolls back commit and cleans stage/work dir
+
+$ git merge --squash all-new-bar-graphs		# updates without history but commit branch
+$ git commit -m "Bring in bar charts"	# complete merge w/out history
+
+$ git log --oneline --decorate --graph --all -10	# show commit history
+$ git branch -d cleanup-vars 		# cleans the branch hist after its merged
