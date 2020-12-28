@@ -1,0 +1,18 @@
+So, after making a new branch and barely creating the commit and merge, and while initializing a local repo fetch, 
+I realize that some user engagement might enhance learning. The unspoken example is to create/follow the [['Read
+the guide']] example talked about.
+
+The importance screamed out as I have just struggled using my repo 'git101' thru lessons 8, 6-8 not yet up loaded.
+All because of the struggle to use the remote/web GUI interface and the git local CLI. What I found was that it is
+easy to make simple examples, but when needing to make some repo on my own. I struggle to get it done. Git keeps
+getting to me. However, I persevere.
+
+My re-learning through my first 8 lessons is that:
+1) git revisioning is done under the .git/ folder
+2) adding files directly to the web remote GUI is very easy
+3) syncing and working with a local and a remote is still cloudy
+4) git CLI local commands are shaping up none-the-less
+5) need to find the right command set guidelines to make local and remote syncing easier
+
+Hoping to figure out how to implement some user engaging exercises, but my collaboration is very minimal.
+TODO that.
