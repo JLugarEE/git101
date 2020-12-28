@@ -1,0 +1,60 @@
+
+https://www.youtube.com/watch?v=jtuHOIlfS2Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=9
+$ # NOTES:===== REMOVE ---- video 9 -------------
+$ git rm file2remove.txt		# delete file2remove.txt
+$ git status
+...
+	deleted: file2remove.txt
+
+$ git commit -m "Removed file2remove.txt"
+
+OR
+
+$ rm file2remove.txt			# filesystem (non-git) kill
+and 
+$ git rm file2remove.txt		# git removal from stage (prior rm <fname>)
+
+After file browser deletions:
+$ git add -u .				# after hard file system delets; rd staging
+	     ^ current dir and lower
+$ git status 				# show commit actions (deletes/adds)
+...
+  deleted: f1
+...
+  deleted: f10.txt
+
+$ git rm --cached fileX.txt		# remove from staging keep in work dir
+Deletes file from staging area, but remains there Untracked (red)
+
+$## GUI:				# has/use deletion check box
+
+https://www.youtube.com/watch?v=jtuHOIlfS2Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=10
+$ # NOTES:===== MOVE ---- video 10 -------------
+$ git mv header.jpg source/header.jpg	# move/rename file; PREFERRED MOVE
+$ git status				# show move/rename PREFERRED result
+...
+	renamed: header.jpg -> source/header.jpg
+
+Manually:
+$ mv prod.log production.log		# non-git move/rename file Manually: 1)
+$ git rm prod.log			# non-git move/rename file Manually: 2)
+$ git add production.log		# non-git move/rename file Manually: 3)
+$ git status 				# non-git move/rename file Manually: 4)
+...
+	renamed: prod.log -> production.log
+
+https://www.youtube.com/watch?v=jtuHOIlfS2Q&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&index=12
+$ # NOTES:===== IGNORE ---- video 12 -------------
+$ touch .gitignore					# a) create .gitignore file
+$ git add .gitignore					# b) add/stage .gitignore file
+$ git commit -m "Preparing to ignore temporary files"	# c) commit .gitignore file 
+$ 							# d) edit file:	with files.*	
+$ # file contents e:# [*.log				# e) only file/dir 
+$ # file contents f:# tmp/]				# f) patterns; NO '[' or ']'
+$ git commit -m "Ignore log files and temporary directory"
+
+$## GUI 1: add file to master branch ".gitignore"
+$## GUI 2: edit as usual/above with patterns and msg/commit
+$## GUI 3: [(right button) template] to choose a language
+
+$ git ls-files --others --ignored --exclude-standard	# shows ignored files
